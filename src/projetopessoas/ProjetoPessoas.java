@@ -22,13 +22,11 @@ public class ProjetoPessoas {
         p3.setSexo("Masculino");
         p3.setIdade(31);
         p3.setSalario(4500.67f);
-        p3.receberAumento(500f);
 
         p4.setNome("Fabiana");
         p4.setSexo("Feminino");
         p4.setIdade(42);
         p4.setSetor("Estoque");
-        p4.mudarTrabalho();
 
         System.out.println(p1.toString());
         System.out.println(p2.toString());
