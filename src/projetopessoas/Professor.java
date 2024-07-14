@@ -4,7 +4,7 @@ public class Professor extends Pessoa{
     private String especialidade;
     private float salario;
 
-    public void ReceberAum(float aumento) {
+    public void receberAumento(float aumento) {
         this.salario += aumento;
         System.out.println("Recebeu um aumento de R$ " + aumento + "\nAgora seu salário é de R$ " + this.salario);
     }
